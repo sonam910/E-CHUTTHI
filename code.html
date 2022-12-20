@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>E-Chutti</title>
+        <link rel="stylesheet" href="code.css">
+        <script type="text/javascript" lang="javascript" src="./responsiveRegistaration.js"></script>
+    </head>
+       
+    <body>
+        <h1>Student Leave Application Form</h1>
+        <form class="container">
+            
+            <div class="row">
+                <div class="col-10">
+                    <label for="lname">Name of the Applicant</label>
+                </div>
+                <div class="col-90">
+                    <input type="text" id="fullname" name="fullname" placeholder="Enter your Full name">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="lname">Registration Number: </label>
+                </div>
+                <div class="col-90">
+                    <input type="number" id="regno" name="regno" placeholder="Enter your reg no">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="qualification" required >Branch: </label>
+                </div>
+                <div class="col-90">
+                    <select name="qualification" id="qualification">
+                        <option value=" ">Select Branch</option>
+                        <option value="Graduation">COMP-A</option>
+                        <option value="Graduation">COMP-B</option>
+                        <option value="BTech.">IT</option>
+                        <option value="MTech.">ENTC-A</option>
+                        <option value="Graduation">ENTC-B</option>
+                        <option value="MCA">MECH</option>
+                        
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="lname">Roll No:</label>
+                </div>
+                <div class="col-90">
+                    <input type="number" id="rollno" name="roll no" placeholder="Enter your roll no">
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-10">
+                    <label for="email">Email:</label>
+                </div>
+                <div class="col-90">
+                    <input type="email" id="email" name="email" placeholder="it should contain @,.">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="mobile">Mobile No:</label>
+                </div>
+                <div class="col-90">
+                    <input type="tel" id="mobile" name="mobile" placeholder="only 10 digits are allowed">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="from">Date of Request: </label>
+                </div>
+                <div class="col-90">
+                    <input type="Date" id="dor" name="dor">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="lname">Attendence</label>
+                </div>
+                <div class="col-90">
+                    <input type="percentage" id="attendence" name="attendence" placeholder="Enter your Attendence by now">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="lname">Name of Hostel</label>
+                </div>
+                <div class="col-90">
+                    <input type="text" id="Hostel" name="Hostel" placeholder="Hostel">
+                </div>
+            </div>
+
+            <h3>Details of Leave</h3>
+            <div class="row">
+                <div class="col-10">
+                    <label for="qualification" required >Type of Leave:</label>
+                </div>
+                <div class="col-90">
+                    <select name="tol" id="tol">
+                        <option value=" ">Select</option>
+                        <option value="Graduation">Medical Leave</option>
+                        <option value="Graduation">Family Function</option>
+                        <option value="BTech.">Educational Leave</option>
+                        <option value="MTech.">Emergency Leave</option>
+                        
+                        
+                    </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-10">
+                    <label for="from">Date of Departure: </label>
+                </div>
+                <div class="col-90">
+                    <input type="Date" id="leavef" name="leavef">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="from">Date of Return: </label>
+                </div>
+                <div class="col-90">
+                    <input type="Date" id="leavet" name="leavet">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="address">Destination: </label>
+                </div>
+                <div class="col-90">
+                    <textarea name="address" id="address" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="mobile">Parent's Contact Number: </label>
+                </div>
+                <div class="col-90">
+                    <input type="tel" id="mobile" name="mobile" placeholder="only 10 digits are allowed">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <label for="email">Parent's Email:</label>
+                </div>
+                <div class="col-90">
+                    <input type="email" id="email" name="email" placeholder="it should contain @,.">
+                </div>
+            </div>
+                    
+            
+           
+            <div class="row">
+                <input type="submit" value="SUBMIT">
+            </div>  
+        </form>  
+    </body>
+</html>
